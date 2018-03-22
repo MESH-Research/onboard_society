@@ -70,6 +70,10 @@ update wp_{new_root_blog_id}_options set option_value='https://{society}.hcommon
 update wp_{new_root_blog_id}_options set option_value='' where option_name='upload_path';
 ```
 
+SparkPost
+
+- configure sparkpost sending/reply/webhook (bp-reply-by-email) domains
+
 WordPress
 
 - Add society id (XXX) to the humanities-commons plugin bp member types and bp group types
@@ -81,6 +85,7 @@ WordPress
 - Activate all other network plugins
 - Set all other options as necessary ( WP, BP )
 - - set root blog storage quota to 5000MB
+- - set sparkpost & reply-bp-email settings
 - - discussion settings
 - - WP default avatar
 - - BP network settings - account deletion option
