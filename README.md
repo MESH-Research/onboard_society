@@ -80,6 +80,7 @@ WordPress
 - Set options for buddypress plugin
 - Activate all other network plugins
 - Set all other options as necessary ( WP, BP )
+- - set root blog storage quota to 5000MB
 - - discussion settings
 - - WP default avatar
 - - BP network settings - account deletion option
