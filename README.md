@@ -92,6 +92,8 @@ WordPress
 - Activate Theme
 - Create XXX.css file for Boss-Child
 - Activate root blog specific plugins (CORE)
+- Ensure plugin manager options match existing networks
+- - https://newnetwork.hcommons.org/wp-admin/network/plugins.php?page=plugin-management
 - Set CORE settings Server Name
 - Add all pages required for BP, CORE and membership handling not a member, we don't recognize you, about HC, accounts linked, logged out, societies
 - Setup BP missing pages
