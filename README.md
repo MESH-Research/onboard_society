@@ -43,15 +43,6 @@ InCommon
 
 - Submit metadata update request
 
-HC Server
-
-- Add variables to .env and config/environments/all.php
-
-- - XXX_SITE_URL
-- - XXX_ENROLLMENT_URL
-- - XXX_ACCOUNT_LINK_URL
-- - XXX_ROOT_BLOG_ID
-
 WordPress
 
 - Add network in wp-admin
@@ -70,14 +61,24 @@ update wp_{new_root_blog_id}_options set option_value='https://{society}.hcommon
 update wp_{new_root_blog_id}_options set option_value='' where option_name='upload_path';
 ```
 
+HC Server
+
+- Add variables to .env and config/environments/all.php
+- - XXX_SITE_URL
+- - XXX_ENROLLMENT_URL
+- - XXX_ACCOUNT_LINK_URL
+- - XXX_ROOT_BLOG_ID
+- Add society id to the humanities-commons plugin bp member types and bp group types
+- Add society id to the the groups auto populate function
+- Add society id and description to get_cous in the comanage-api class
+
 SparkPost
 
 - configure sparkpost sending/reply/webhook (bp-reply-by-email) domains
 
 WordPress
 
-- Add society id (XXX) to the humanities-commons plugin bp member types and bp group types
-- Add society id (XXX) and description to get_cous in the comanage-api class
+- Log in to HC WP network admin, then goto society id (XXX) WP network admin
 - Activate shibboleth plugin
 - Set options for shibboleth plugin
 - Activate buddypress plugin
