@@ -8,7 +8,7 @@ Initial
 
 COmanage server
 
-- Add society logo in /var/www/humanities-commons/assets
+- Add society logo in /var/www/humanities_commons/assets
 - Add society specific index.php in /var/www/after_submission
 
 COmanage
@@ -35,9 +35,9 @@ HC Server
 
 - Configure new Apache Virtual Host on HC server for subdomain (XXX)
 
-IdMS stack
+#IdMS stack
 
-- Add AssertionConsumerService to shibboleth xml metadata and distribute to all systems.
+# Add AssertionConsumerService to shibboleth xml metadata and distribute to all systems.
 
 InCommon
 
@@ -72,8 +72,10 @@ HC Server
 - Add society id to the the groups auto populate function
 - Add society id and description to get_cous in the comanage-api class
 
-SparkPost
+#Login to network doesn't work, active shibboleth using cli, configure using mysql
 
+SparkPost
+#when?
 - configure sparkpost sending/reply/webhook (bp-reply-by-email) domains
 
 WordPress
@@ -83,7 +85,9 @@ WordPress
 - Set options for shibboleth plugin
 - Activate buddypress plugin
 - Set options for buddypress plugin
+- Set network and network plugin options as necessary ( WP, BP )
 - Activate all other network plugins
+- Activate root blog specific plugins (CORE, etc.)
 - Set all other options as necessary ( WP, BP )
 - - set root blog storage quota to 5000MB
 - - set sparkpost & reply-bp-email settings
@@ -92,7 +96,6 @@ WordPress
 - - BP network settings - account deletion option
 - Activate Theme
 - Create XXX.css file for Boss-Child
-- Activate root blog specific plugins (CORE)
 - Ensure plugin manager options match existing networks
 - - https://newnetwork.hcommons.org/wp-admin/network/plugins.php?page=plugin-management
 - Set CORE settings Server Name

@@ -1,6 +1,6 @@
 #HCommons pages
 
-SITE=https://msu.msucommons-dev.org
+SITE=https://msu.hcommons-dev.org
 
 wp --path=/srv/www/commons/current/web/wp --url=$SITE post create societies.html --post_type=page --post_title='Societies' --post_status=publish \
  --porcelain | xargs -I % wp --path=/srv/www/commons/current/web/wp --url=$SITE post meta add % _wp_page_template page-content-only.php

@@ -1,6 +1,6 @@
 #missing buddypress pages
 
-SITE=msu.msucommons-dev.org
+SITE=msu.hcommons-dev.org
 
 #Activate
 #Members

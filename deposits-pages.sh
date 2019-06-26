@@ -1,6 +1,6 @@
 #deposit pages
 
-SITE=https://msu.msucommons-dev.org
+SITE=https://msu.hcommons-dev.org
 
 DEPOSIT_PARENT=$(wp --path=/srv/www/commons/current/web/wp --url=$SITE post create --post_type=page --post_title='Deposits' --post_status=publish --porcelain)
 
