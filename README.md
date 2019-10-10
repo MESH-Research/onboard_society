@@ -10,11 +10,13 @@ COmanage server
 
 - Add society logo in /var/www/humanities_commons/assets
 - Add society specific index.php in /var/www/after_submission
+- Add society specific css to /var/www/humanities_commons/assets/global.css
+- Add society specific membership as file to ~/comanage-batch if necessary for testing
 
 COmanage
 
 - Add COU
-- Add Organization Identity Source
+- Add Organization Identity Source (flat file for testing)
 - Add Pipeline
 - Add theme
 - Add enrollment flows
@@ -24,7 +26,10 @@ COmanage
 Grouper
 
 - Create Society folder under HCommons Root folder
-- Add groups
+- Create Society folder under ForExport HCommons Root folder
+- Add admin and members groups
+- Add admin and members groups in ForExport
+- Add society specific groups
 - Add any composite groups necessary
 
 COmanage

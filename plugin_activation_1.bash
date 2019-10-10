@@ -1,6 +1,6 @@
 SITE=https://msu.hcommons-dev.org
 
-for plugin in bbpress bbp-live-preview bp-blog-avatar bp-groupblog bp-group-documents bp-lotsa-feeds bp-mpo-activity-filter bp-block-member buddypress-docs buddypress-docs-minor-edit buddypress-followers commons-in-a-box more-privacy-options; do \
+for plugin in bp-blog-avatar bp-groupblog bp-group-documents bp-lotsa-feeds bp-mpo-activity-filter bp-block-member buddypress-docs buddypress-docs-minor-edit buddypress-followers commons-in-a-box more-privacy-options; do \
  wp --path=/srv/www/commons/current/web/wp --url=$SITE plugin activate $plugin --network; \
 done
 
