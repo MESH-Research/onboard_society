@@ -2,7 +2,7 @@
 # These steps need to be included in the society onboarding process
 #
 
-add "Logged Out" page
+#add "Logged Out" page
 add parameter on the end of the shibboleth logout url - "?return=https://{society}.hcommons.org/logged-out/"
 
 make sure uploads are in shared/uploads/sites{blog_id}

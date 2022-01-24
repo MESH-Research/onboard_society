@@ -1,6 +1,6 @@
 #CORE pages
 
-SITE=https://msu.hcommons-dev.org
+SITE=https://sah.hcommons.org
 
 CORE_PARENT=$(wp --path=/srv/www/commons/current/web/wp --url=$SITE post create core.html --post_type=page --post_title='Welcome to <em>CORE</em>!' --post_name=core --post_status=publish --porcelain)
 
