@@ -17,16 +17,16 @@
 Initial
 
 - Determine society id (XXX)
-- Acquire wildcard ssl cert for society (XXX.hcommons.org)
-- Create email user in hcommons.org mail system
-- Create admin user in hcommons.org
+- Acquire wildcard ssl cert for society (XXX.hcommons.org, \*.XXX.hcommons.org) now handled in AWS
+- Create email user in hcommons.org mail system (XXX.hcommons.org)
+- Create admin user in hcommons.org (XXXadmin)
 
 COmanage server
 
-- Add society logos in /var/www/img/ (XXX_55.png, hc_XXX_55.png)
+- Add society logos in /var/www/img/ (XXX_55.png)
 - Add society specific index.php in /var/www/after_submission
-- Add society specific css to /var/www/humanities_commons/assets/global.css (XXX enrollment styles)
-- Add society specific theme css to /var/www/humanities_commons/assets/XXX.css
+- Add society specific css to /var/www/humanities_commons/assets/global.css (XXX enrollment styles) #TODO CAN THIS BE REMOVED?
+- Add society specific theme css to /var/www/humanities_commons/assets/XXX.css #TODO CAN THIS BE REMOVED?
 - Add society specific membership as file to ~/comanage-batch if necessary for testing
 
 COmanage
@@ -38,6 +38,7 @@ COmanage
 - Add enrollment flows
 - Add any managed groups
 - Add any group mapping
+- Add Enrollment Flow ID / COU mapping to /var/www/comanage-registry/local/Plugin/HCConfirmer/Controller/HCConfirmersController.php
 
 Grouper
 
@@ -54,12 +55,12 @@ COmanage
 
 HC Server
 
-- Configure new Apache Virtual Host on HC server for subdomain (XXX)
+#- Configure new Apache Virtual Host on HC server for subdomain (XXX)
 
 IdMS stack
 
- Add AssertionConsumerService to shibboleth xml metadata and distribute to all systems (if domain mapping to be implemented).
-
+# Add AssertionConsumerService to shibboleth xml metadata and distribute to all systems (if domain mapping to be implemented).
+- Add COU to satosa /opt/satosa/plugins/src/process_group_memberships.py 
 #InCommon
 
 #- Submit metadata update request
